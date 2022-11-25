@@ -1,0 +1,34 @@
+{
+  "name": "smb/calculator",
+  "description": "Simple Calculator.",
+  "license": "proprietary",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.stroeermediabrands.de/"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org/"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev",
+    "vimeo/psalm": "5.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "SMB\\Calculator\\": "src/",
+      "SMB\\Calculator\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0"
+  },
+    "platform": {
+      "php": "8.0.11"
+    }
+
+}
