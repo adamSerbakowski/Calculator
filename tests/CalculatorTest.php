@@ -29,13 +29,13 @@ class CalculatorTest extends TestCase
         self::assertEquals($expected, $found);
     }
 
-    protected function getSumDataProvider() : array
+    public function getSumDataProvider() : array
     {
         return [
             [3,2,1],
             [5,3,2],
             [10,6,4],
-            [20,13,7],
+            [20,13,7]
         ];
     }
 
@@ -57,13 +57,13 @@ class CalculatorTest extends TestCase
         self::assertEquals($expected, $found);
     }
 
-    protected function getSubtractDataProvider() : array
+    public function getSubtractDataProvider() : array
     {
         return [
             [1,2,1],
             [1,3,2],
             [2,6,4],
-            [6,13,7],
+            [6,13,7]
         ];
     }
 
@@ -85,13 +85,13 @@ class CalculatorTest extends TestCase
         self::assertEquals($expected, $found);
     }
 
-    protected function getMultiplyDataProvider() : array
+    public function getMultiplyDataProvider() : array
     {
         return [
             [2,2,1],
             [6,3,2],
             [24,6,4],
-            [91,13,7],
+            [91,13,7]
         ];
     }
 
@@ -113,13 +113,13 @@ class CalculatorTest extends TestCase
         self::assertEquals($expected, $found);
     }
 
-    protected function getDivideDataProvider() : array
+    public function getDivideDataProvider() : array
     {
         return [
             [2,2,1],
             [1.5,3,2],
             [1.5,6,4],
-            [2,12,6],
+            [2,12,6]
         ];
     }
 }
