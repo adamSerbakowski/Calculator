@@ -3,19 +3,8 @@
   "description": "Simple Calculator.",
   "license": "proprietary",
   "type": "project",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.stroeermediabrands.de/"
-    },
-    {
-      "type": "composer",
-      "url": "https://packagist.org/"
-    }
-  ],
   "require-dev": {
-    "phpunit/phpunit": "9.5.x-dev",
-    "vimeo/psalm": "5.x-dev"
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
     "psr-4": {
